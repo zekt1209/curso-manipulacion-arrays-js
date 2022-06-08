@@ -1,3 +1,5 @@
+// filter, devuelve un ARRAY con las coincidencias 
+
 const people = [
     {name: 'Agustin', age: 17},
     {name: 'Maria', age: 15},

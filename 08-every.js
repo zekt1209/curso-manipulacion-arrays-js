@@ -49,4 +49,15 @@ const team = [
   const rta3 = team.every(item => item.age <= 15);
   console.log('Todos son menores de 15 años? :', rta3);
 
+  // RETO - Validar que todos sean pares usando every
+
+  function solution(numbers) {
+	const todosSonPares = numbers.every(item => item % 2 === 0);
+	return todosSonPares;
+}; 
+
+console.log(solution([2, 4, 6, 8, 10]));
+console.log(solution([1, 3, 5, 7, 10, 11]));
+console.log(solution([1, 3, 5]));
+
 
